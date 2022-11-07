@@ -7,8 +7,13 @@
 /* Gererics */
 body{
     font-family: sans-serif;
-    background-color:#181818;
+    background-color: black;
 }
+main{
+    overflow-y: auto;
+    height: calc(100vh - 110px);
+    color: white;
+} 
 
 /* Utils */
 .container{
@@ -16,7 +21,7 @@ body{
     margin: 0 auto;
 }
 header{
-    background-color: black;
+    background-color: #181818;
     height: 40px;
     color: white;
     padding: 10px 20px;
@@ -36,4 +41,13 @@ header{
     font-size: 10px;
     padding: 3px 6px;
     display: inline;
+}
+
+
+
+
+
+footer{
+    background-color: #181818 ;
+    height: 70px;
 }
