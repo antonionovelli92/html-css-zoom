@@ -14,12 +14,17 @@ main{
     height: calc(100vh - 110px);
     color: white;
 } 
+.border{
+    border: 2px dashed white;
+}
 
 /* Utils */
-.container{
-    max-width: 1200;
+
+.container {
+    max-width: 1200px;
     margin: 0 auto;
 }
+
 header{
     background-color: #181818;
     height: 40px;
@@ -42,7 +47,25 @@ header{
     padding: 3px 6px;
     display: inline;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+
+}
+.col{
+    flex-basis: calc(100%/7);
+    
+
+}
+.user img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 2px;
+    height: 120px;
+    width: 167px;
+}
 
 
 
