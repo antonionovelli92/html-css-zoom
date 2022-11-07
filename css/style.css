@@ -101,7 +101,7 @@ footer{
 /* .footer-left{
     margin: 0 5px;
 } */
-.footer-content .fa-solid {
+.footer-content .fa-solid, .fa-brands{
     font-size: 30px;
     padding: 5px 10px;
     
@@ -129,8 +129,22 @@ text-align: center;
     justify-content: center;
 }
 .footer-right{
+    height: 100%;
+    background-color: #4A4A4A;
+    display: flex;
+    align-items: center;
     
+    
+}
+.footer-right h5{
+    color: red;
+    padding: 5px 10px;
+    font-size: 10px;
 }
 #icon-green{
     color: green;
+}
+.text-try{
+    height: 100%;
+
 }
