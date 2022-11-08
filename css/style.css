@@ -1,21 +1,24 @@
 /* Reset CSS */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Gererics */
-body{
+body {
     font-family: sans-serif;
     background-color: black;
 }
-main{
-    overflow-y: auto;
-    height: calc(100vh - 110px);
+
+main {
+    height: calc(100vh - 160px);
+    overflow: auto;
     color: white;
-    margin: 30px auto;
-} 
-.border{
+    /* margin: 30px auto; */
+}
+
+.border {
     border: 2px dashed white;
 }
 
@@ -26,21 +29,22 @@ main{
     margin: 0 auto;
 }
 
-header{
-    background-color: #181818;
-    height: 40px;
+header {
+    background-color: black;
+    height: 80px;
     color: white;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.navbar-buttons >*{
-    background-color: rgba(227,227,227,0.3);
+
+.navbar-buttons>* {
+    background-color: rgba(227, 227, 227, 0.3);
     border-radius: 8%;
     font-weight: lighter;
     font-style: normal;
@@ -48,23 +52,27 @@ header{
     padding: 3px 6px;
     display: inline;
 }
-.navbar-buttons .fa-solid{
+
+.navbar-buttons .fa-solid {
     margin-right: 2px;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 
 }
-.col{
+
+.col {
     flex-basis: calc(100%/7);
     position: relative;
-    
+
 
 }
-.user img{
+
+.user img {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5px 2px;
@@ -73,78 +81,87 @@ header{
 }
 
 
-.user-name h5{
+.user-name h5 {
     padding: 3px 2px;
     position: absolute;
     bottom: 14px;
     left: 4px;
-    background-color: rgba(227,227,227,0.3);
+    background-color: rgba(227, 227, 227, 0.3);
     border-radius: 3px;
-    display: inline-block;  
+    display: inline-block;
 }
 
 
 
-footer{
-    background-color: #181818 ;
-    height: 70px;
+footer {
+    background-color: #181818;
+    height: 80px;
     color: white;
-    
-    
+
+
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 /* .footer-left{
     margin: 0 5px;
 } */
-.footer-content .fa-solid, .fa-brands{
+.footer-content .fa-solid,
+.fa-brands {
     font-size: 30px;
     padding: 5px 10px;
-    
+
 }
-.footer-angle .fa-angle-up{
+
+.footer-angle .fa-angle-up {
     display: inline-block;
     font-size: 8px;
     margin: 15px 10px;
 }
-h6{
+
+h6 {
     font-weight: lighter;
     text-align: center;
 }
 
-.footer-center{
-flex-grow: 1;
-text-align: center;
+.footer-center {
+    flex-grow: 1;
+    text-align: center;
 
 
 }
 
-.icons-left ul{
+.icons-left ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-.footer-right{
+
+.footer-right {
     height: 100%;
     background-color: #4A4A4A;
     display: flex;
     align-items: center;
-    
-    
+
+
 }
-.footer-right h5{
+
+.footer-right h5 {
     color: red;
     padding: 5px 10px;
     font-size: 10px;
 }
-#icon-green{
+
+#icon-green {
     color: green;
 }
-.text-try{
+
+.text-try {
     height: 100%;
 
 }
